@@ -1,0 +1,13 @@
+version: "3.7"
+
+services: 
+  nova-app:
+    ports:
+      - "8075:80"
+    build:
+      context: .
+      target: php-base
+      dockerfile: Dockerfile
+    container_name: nova-app
+    volumes:
+        - ./src:/var/www/html
