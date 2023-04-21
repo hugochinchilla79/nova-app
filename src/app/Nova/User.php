@@ -75,7 +75,6 @@ class User extends Resource
     public function cards(NovaRequest $request)
     {
         return [
-            new Onboarding(),
         ];
     }
 

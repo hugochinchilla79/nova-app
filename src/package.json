@@ -13,7 +13,9 @@
         "build-Onboarding": "cd nova-components/Onboarding && npm run dev",
         "build-Onboarding-prod": "cd nova-components/Onboarding && npm run prod",
         "build-calendar": "cd nova-components/Calendar && npm run dev",
-        "build-calendar-prod": "cd nova-components/Calendar && npm run prod"
+        "build-calendar-prod": "cd nova-components/Calendar && npm run prod",
+        "build-step-onboarding": "cd nova-components/StepOnboarding && npm run dev",
+        "build-step-onboarding-prod": "cd nova-components/StepOnboarding && npm run prod"
     },
     "devDependencies": {
         "@popperjs/core": "^2.10.2",

@@ -19,6 +19,10 @@
         {
             "type": "path",
             "url": "./nova-components/Onboarding"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/StepOnboarding"
         }
     ],
     "require": {
@@ -29,7 +33,8 @@
         "laravel/tinker": "^2.8",
         "laravel/nova": "~4.0",
         "hugochenr/calendar": "@dev",
-        "hugochenr/onboarding": "@dev"
+        "hugochenr/onboarding": "@dev",
+        "hugochenr/step-onboarding": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

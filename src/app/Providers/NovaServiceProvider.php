@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Nova\User;
 use Hugochenr\Calendar\Calendar;
+use Hugochenr\StepOnboarding\StepOnboarding;
 use Laravel\Nova\Nova;
 use Illuminate\Http\Request;
 use Laravel\Nova\Menu\MenuItem;
@@ -77,7 +78,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     public function tools()
     {
         return [
-            new Calendar,
+            new Calendar
         ];
     }
 

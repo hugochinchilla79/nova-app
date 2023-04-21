@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "034a5e202b34159de4a4dff0e4509c04",
+    "content-hash": "deaf37b0f469bbde98c6088da32c5e16",
     "packages": [
         {
             "name": "brick/math",
@@ -1376,7 +1376,7 @@
         },
         {
             "name": "hugochenr/calendar",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "./nova-components/Calendar",
@@ -1412,7 +1412,7 @@
         },
         {
             "name": "hugochenr/onboarding",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "./nova-components/Onboarding",
@@ -1438,6 +1438,42 @@
                 "MIT"
             ],
             "description": "A Laravel Nova card.",
+            "keywords": [
+                "laravel",
+                "nova"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "hugochenr/step-onboarding",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./nova-components/StepOnboarding",
+                "reference": "b5c2354ee778a98933651c8a26f8af1eb341d159"
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hugochenr\\StepOnboarding\\ToolServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hugochenr\\StepOnboarding\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel Nova tool.",
             "keywords": [
                 "laravel",
                 "nova"
@@ -8898,7 +8934,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "hugochenr/calendar": 20,
-        "hugochenr/onboarding": 20
+        "hugochenr/onboarding": 20,
+        "hugochenr/step-onboarding": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
