@@ -18,3 +18,6 @@ Con el comando anterior se puede entrar al contenedor y correr los comandos de P
 Se adjunta directamente la base de datos y el .env debe tener configurado el driver de sqlite. 
 
 No hace falta configurar nombre de base de datos.
+
+Usuario: hugochenr@gmail.com
+Pass: 12345678a
